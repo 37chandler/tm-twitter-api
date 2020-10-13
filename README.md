@@ -1,4 +1,4 @@
-# Pulling Twitter Descriptions
+# Working with the Twitter API
 
 Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Descriptions with Tweepy`, I have laid out
 ways to gather follower information as well as Tweets containing a certain key 
