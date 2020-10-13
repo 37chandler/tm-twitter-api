@@ -1,7 +1,7 @@
 # Working with the Twitter API
 
 ## Jordan's Introduction
-Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Descriptions with Tweepy`, I have laid out
+Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Data with Tweepy`, I have laid out
 ways to gather follower information as well as Tweets containing a certain key 
 phrase or Twitter handle. One thing to keep in mind while going through the notebook is that Twitter 
 only allows so many pulls per fifteen minute periods, so if you are choosing to grab followers from accounts 
@@ -20,5 +20,38 @@ has their own hashtag that they try to encourage others to engage with. Some oth
 
 ## Twitter Assignment
 
-Using the code provided by Jordan, pick at least two Twitter accounts to pull all the follower 
-descriptions for. 
+In this assisgnment we're going to pull a handful of fields for all the followers of several Twitter
+accounts. 
+
+In the code provided by Jordan, he picks two WNBA teams and pulls (some of) the followers screen_names and
+descriptions. This assignment will extend that work. 
+
+Pick at least two Twitter accounts that you'll be comparing. Those accounts should be on different sides 
+of some sort of divide. The divide could be ideological, sports-related, public health-related, age, etc.
+
+Ideally the accounts will have somewhere between 
+100K and 500K followers. We're picking that range so that the results won't take _too_ long with
+Twitter's rate limiting. 
+If you'd like to pick a few accounts to represent one "side" that have that many followers in 
+aggregate, that's fine. 
+
+Once you've chosen your accounts, write code that pulls all the followers of the accounts (or set of accounts). 
+
+* screen_name
+* name
+* id
+* location
+* followers_count
+* friends_count
+* description
+
+These fields are all located in the `user` object accessed in the code. 
+
+Write these fields out to two tab-delimited text files. I recommend following
+the example code and including the name of the initial account in the file name. 
+
+Note that the output of this assignment should be **two** tab-delimited text files,
+one for each starting account or set of accounts. 
+
+
+
