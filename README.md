@@ -1,5 +1,6 @@
 # Working with the Twitter API
 
+## Jordan's Introduction
 Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Descriptions with Tweepy`, I have laid out
 ways to gather follower information as well as Tweets containing a certain key 
 phrase or Twitter handle. One thing to keep in mind while going through the notebook is that Twitter 
@@ -16,3 +17,8 @@ retweeted, where retweeting someone elses Tweet will share it to your own follow
 Lastly, hashtags are a decent way to follow a topic/conversation. You'll see in the exercise that 
 I grabbed Tweets from the hashtag #WorldMentalHealthDay, but almsot any large organization/event/topic 
 has their own hashtag that they try to encourage others to engage with. Some others include #Debates2020, #NBAFinals, etc. 
+
+## Twitter Assignment
+
+Using the code provided by Jordan, pick at least two Twitter accounts to pull all the follower 
+descriptions for. 
