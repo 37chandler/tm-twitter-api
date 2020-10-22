@@ -54,4 +54,5 @@ Note that the output of this assignment should be **two** tab-delimited text fil
 one for each starting account or set of accounts. 
 
 
-
+## 10/22 Update from Jordan
+Brenden Connors made some really useful code that grabs all user objects from our list of Twitter IDs. Instead of grabbing 300 records per fifteen minutes, you should now be able to grab about of 900,000. 
