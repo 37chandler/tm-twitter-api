@@ -1,4 +1,9 @@
-
+.DS_Store
+*api_keys.py
+!example_api_keys.py
+old-code/*
+generalmills_followers.txt
+michaelpollan_followers.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -1,7 +1,9 @@
 # Working with the Twitter API
 
-## Jordan's Introduction
-Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Data with Tweepy`, I have laid out
+## Introduction
+
+Tweepy can be used to gather all sorts of information from Twitter. In the notebook, `Pulling Twitter Descriptions`, 
+I have laid out
 ways to gather follower information as well as Tweets containing a certain key 
 phrase or Twitter handle. One thing to keep in mind while going through the notebook is that Twitter 
 only allows so many pulls per fifteen minute periods, so if you are choosing to grab followers from accounts 
@@ -20,20 +22,17 @@ has their own hashtag that they try to encourage others to engage with. Some oth
 
 ## Twitter Assignment
 
-In this assisgnment we're going to pull a handful of fields for all the followers of several Twitter
-accounts. 
+Acquiring data is one of the fundamental steps in any analysis and proficiency at APIs and web scraping unlocks rich data sets for future analyses. In this assignment you will pull data from the Twitter API.
+Instructions: 
 
-In the code provided by Jordan, he picks two WNBA teams and pulls (some of) the followers screen_names and
-descriptions. This assignment will extend that work. 
+1. Choose two twitter accounts for your pull. Those accounts should be on different sides of some sort of divide. The divide could be ideological, sports-related, public health-related, age, etc.
 
-Pick at least two Twitter accounts that you'll be comparing. Those accounts should be on different sides 
-of some sort of divide. The divide could be ideological, sports-related, public health-related, age, etc.
+2. Ideally the accounts will have somewhere between 100K and 500K followers. We're picking that range so that the results won't take _too_ long with Twitter's rate limiting. If you'd like to pick a few accounts to represent one "side" that have that many followers in aggregate, that's fine. 
 
-Ideally the accounts will have somewhere between 
-100K and 500K followers. We're picking that range so that the results won't take _too_ long with
-Twitter's rate limiting. 
-If you'd like to pick a few accounts to represent one "side" that have that many followers in 
-aggregate, that's fine. 
+3. The file `Pulling Twitter Descriptions.ipynb` holds your starting code for this assignment. 
+
+Note: Storing API keys in repositories is not recommended. An example .py file is included in the repo, but the keys are not valid.  
+
 
 Once you've chosen your accounts, write code that pulls all the followers of the accounts (or set of accounts). 
 
@@ -45,7 +44,6 @@ Once you've chosen your accounts, write code that pulls all the followers of the
 * friends_count
 * description
 
-These fields are all located in the `user` object accessed in the code. 
 
 Write these fields out to two tab-delimited text files. I recommend following
 the example code and including the name of the initial account in the file name. 
@@ -53,6 +51,3 @@ the example code and including the name of the initial account in the file name.
 Note that the output of this assignment should be **two** tab-delimited text files,
 one for each starting account or set of accounts. 
 
-
-## 10/22 Update from Jordan
-Brenden Connors made some really useful code that grabs all user objects from our list of Twitter IDs. Instead of grabbing 300 records per fifteen minutes, you should now be able to grab about of 900,000. 
